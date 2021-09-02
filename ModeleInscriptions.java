@@ -17,6 +17,8 @@ public class ModeleInscriptions {
      public SimpleStringProperty idFormat = new SimpleStringProperty();
      public SimpleStringProperty idEtud = new SimpleStringProperty();
      public SimpleStringProperty DateIns = new SimpleStringProperty();
+       public SimpleStringProperty TitreF = new SimpleStringProperty();
+     public SimpleStringProperty NomE = new SimpleStringProperty();
 
     public String getIdInscription() {
         return idInscription.get();
@@ -43,13 +45,28 @@ public class ModeleInscriptions {
         this.idEtud.set(idEtud);
     }
 
-    public String getDateIns() {
+    public String getTitreF() {
+        return TitreF.get();
+    }
+
+    public void setTitreF(String TitreF) {
+        this.TitreF.set(TitreF);
+    }
+   public String getNomE() {
+        return NomE.get();
+    }
+
+
+    public void setNomE(String NomE) {
+        this.NomE.set(NomE);
+    }
+     public String getDateIns() {
         return DateIns.get();
     }
+
 
     public void setDateIns(String DateIns) {
         this.DateIns.set(DateIns);
     }
-
     
 }

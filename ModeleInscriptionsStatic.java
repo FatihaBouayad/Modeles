@@ -16,7 +16,8 @@ public class ModeleInscriptionsStatic {
      public static SimpleStringProperty idFormat = new SimpleStringProperty();
      public static SimpleStringProperty idEtud = new SimpleStringProperty();
      public static SimpleStringProperty DateIns = new SimpleStringProperty();
-
+  public static SimpleStringProperty TitreF = new SimpleStringProperty();
+     public static SimpleStringProperty NomE = new SimpleStringProperty();
     public String getIdInscription() {
         return idInscription.get();
     }
@@ -48,4 +49,19 @@ public class ModeleInscriptionsStatic {
     public void setDateIns(String DateIns) {
         this.DateIns.set(DateIns);
 }
+     public String getTitreF() {
+        return TitreF.get();
+    }
+
+    public void setTitreF(String TitreF) {
+        this.TitreF.set(TitreF);
+    }
+   public String getNomE() {
+        return NomE.get();
+    }
+
+
+    public void setNomE(String NomE) {
+        this.NomE.set(NomE);
+    }
 }
